@@ -9,7 +9,6 @@ public class MyApplication implements Application{
 	public MyApplication(UserService userService) {
 		this.userService=userService;
 	}
-	
 	@Override
 	public void work() {
 		System.out.println("主程序开始执行！");
